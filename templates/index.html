@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome - Flask App</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome to Flask App</h1>
+        <p>This is the home page of the Flask application.</p>
+    </div>
+
+    <div class="conditions">
+        <p>this is conditions</p>
+        {% if name == 'Aakash' %}
+        <h3>Hello, <span style="color: #667eea">{{name}}</span>!</h3>
+        {% else %}
+        <h3>Hello, Guest!</h3>
+        {% endif %}
+      </div>
+
+    <div class="loop">
+        <p>This is the loop section</p>
+        {% for i in range(5) %}
+        <p>Iteration {{i}}</p>
+        {% endfor %}
+    </div>
+  </body>
+</html>
