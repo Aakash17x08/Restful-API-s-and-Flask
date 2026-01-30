@@ -1,4 +1,4 @@
-## 🧠 Class 1: API Basics + Real-World Context (Foundation)
+## 🧠 Class 1: API Basics + Real-World Context (Foundation) 
 
 ### 1. What is an API?
 
