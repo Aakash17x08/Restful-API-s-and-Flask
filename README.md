@@ -1,5 +1,5 @@
 ## 🧠 Class 1: API Basics + Real-World Context (Foundation) 
-
+ 
 ### 1. What is an API?
 
 - **API = Application Programming Interface**
